@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery Fade Out</title>
+    <style type="text/css">
+        body{
+            background-color: slategray;
+            text-align: center;
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        table{
+            border: transparent;
+        }
+        td{
+            background-color: mediumturquoise;
+            color: white;
+        }
+        th, td{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+        table tbody tr:hover td{
+            background-color: teal;
+            border-color:black;
+            transisition: all .3s;
+        }
+    </style>
+</head>
+<body>  
+    <table style="margin-left: auto;margin-right: auto;">
+     <tbody>
+        <tr>
+            <th colspan="6" bgcolor="lightgray">My 5 Best Friends</th>
+        </tr>    
+        <tr>
+            <td>No</td>
+            <td>Nim</td>
+            <td>Nama</td>
+            <td>Alamat</td>
+            <td colspan="2">Aksi</td>
+        </tr>
+        <tr id="baris__1">
+            <td align="center">1</td>
+            <td class="data" id="nim__1">32211540</td>
+            <td class="data" id="nama_mhs__1">Ainun Putri Nurhaliva</td>
+            <td class="data" id="alamat__1">Cirebon</td>
+            <td class="data tengah" id=hapus__1>Hapus</td>  
+        </tr>
+        <tr id="baris__2">
+            <td align="center">2</td>
+            <td class="data" id="nim__2">41215842</td>
+            <td class="data" id="nama_mhs__2">Muhammad Riad Solihin</td>
+            <td class="data" id="alamat__2">Cirebon</td>
+            <td class="data tengah" id=hapus__2>Hapus</td>
+        </tr>
+        <tr id="baris__3">
+            <td align="center">3</td>
+            <td class="data" id="nim__3">41215844</td>
+            <td class="data" id="nama_mhs__3">Aziz Chairul Imam</td>
+            <td class="data" id="alamat__3">Palimanan</td>
+            <td class="data tengah" id=hapus__3>Hapus</td>
+        </tr>
+        <tr id="baris__4">
+            <td align="center">4</td>
+            <td class="data" id="nim__4">41215634</td>
+            <td class="data" id="nama_mhs__4">Ahmad Syaeful</td>
+            <td class="data" id="alamat__4">Arjawinangun</td>
+            <td class="data tengah" id=hapus__4>Hapus</td>
+        </tr>
+        <tr id="baris__5">
+            <td align="center">5</td>
+            <td class="data" id="nim__5">41215562</td>
+            <td class="data" id="nama_mhs__5">Muhammad Daffa</td>
+            <td class="data" id="alamat__5">Brebes</td>
+            <td class="data tengah" id=hapus__5>Hapus</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+<html>
